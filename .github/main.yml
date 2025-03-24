@@ -1,0 +1,11 @@
+name: Make Hello Workflow
+
+on: [push]
+
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Run make say-hello
+        run: make say-hello
