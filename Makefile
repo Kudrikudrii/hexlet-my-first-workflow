@@ -1,2 +1,2 @@
 say-hello:
-		node sayHello.js
+		@echo "Hello, World!"
